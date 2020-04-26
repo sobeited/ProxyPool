@@ -1,3 +1,11 @@
+# 注意事项
+检查docker镜像源
+vim /etc/docker/daemon.json
+
+指定pip镜像源
+vim Dockerfile
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+
 # ProxyPool
 
 ![build](https://github.com/Python3WebSpider/ProxyPool/workflows/build/badge.svg)
