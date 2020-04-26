@@ -1,10 +1,14 @@
 # 注意事项
 检查docker镜像源
+```shell script
 vim /etc/docker/daemon.json
+```
 
 指定pip镜像源
+```shell script
 vim Dockerfile
 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 # ProxyPool
 
